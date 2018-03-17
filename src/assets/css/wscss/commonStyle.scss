@@ -1,0 +1,142 @@
+@import "../../../assets/css/wscss/mixin.scss";
+$red: #eb0044;
+$pink: #ffccda;
+/* agent */
+::-webkit-input-placeholder {
+  color: rgba(0,0,0,.2);
+  font-size: 1.4rem;
+  text-align: right;
+}
+.bg-img {
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+ }
+.agentAudit {
+  background: #fff;
+  .cell-wrapper{
+    @include border-1px(rgba(0,0,0,.1));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.4rem;
+    height: 6.5rem;
+    padding: 0 1rem;
+    &.card{
+      @include border-none();
+    }
+    .left-title {
+      flex: 0 0 15rem;
+    }
+    .right-input {
+      flex: 1;
+      input{
+        width: 100%;
+        text-align: right;
+      }
+    }
+  }
+  .agentCard-wrapper,.companyCard-wrapper{
+    padding: 0 1rem;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    .agentCard-list,.companyCard-list{
+      float: left;
+      width: 48%;
+      height: 13rem;
+      background-color: #f4f4f4;
+      margin-bottom: 1.5rem;
+      position: relative;
+      span{
+        display: inline-block;
+        position: absolute;
+      }
+      span:nth-of-type(1) {
+        font-size: 2rem;
+        top: 25%;
+        left: 50%;
+        margin-left: -.9rem;
+      }
+      span:nth-of-type(2) {
+        font-size: 1.4rem;
+        top: 55%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        color: #9a9a9a;
+        padding: 0 2rem;
+      }
+    }
+    .agentCard-list:nth-of-type(odd),.companyCard-list:nth-of-type(odd) {
+      margin-right: 4%;
+    }
+  }
+  .companyCard-wrapper{
+    padding-bottom: 7rem;
+  }
+}
+/* agent&agentHomePage */
+.addMdIndex,.agentIndex{
+  height: 100vh;
+  background: #fff;
+  padding: 2.5rem 3vw 0 3vw;
+  .audit a{
+    display: inline-block;
+    text-align: center;
+    background: #f4f4f4;
+    width: 94vw;
+    height: 11.5rem;
+    margin-bottom: 1.5rem;
+    line-height: 11.5rem;
+    font-size: 1.4rem;
+    &.opt{
+      background: $red;
+      color: #fff;
+    }
+  }
+}
+/*homePage&&modifiedIndex */
+#agentHomePageIndex,.modifiedIndex{
+  height: 100vh;
+  .headImg{
+    width: 100%;
+    height: 34rem;
+  }
+@media only screen and (max-width: 320px) {
+  .headImg{
+    display: block;
+    width: 100%;
+    height: 25rem;
+  }
+}
+}
+.blur-bg{
+  position: fixed;
+  left: 0;
+  top: 0;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 0rem;
+  background-color: rgba(255,255,255,0);
+  width: 100%;
+  height: 5rem;
+  z-index: 9999;
+}
+span.goback,span.goBackToApp {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: inline-block;
+  height: 5rem;
+  width: 5rem;
+  background-image: url(../../../assets/img/whiteback.svg);
+  background-repeat: no-repeat;
+  background-position: 1.5rem 1.5rem;
+  background-size: 20%;
+  &.black {
+    background-image: url(../../../assets/img/back.svg);
+    background-repeat: no-repeat;
+    background-position: 1.5rem 1.5rem;
+    background-size: 25%;
+  }
+}

@@ -1,0 +1,1 @@
+webpackJsonp([23,25],{23:function(e,n,A){"use strict";Object.defineProperty(n,"__esModule",{value:!0}),A.d(n,"SET_DATA",function(){return t}),A.d(n,"CLEAN_DATA",function(){return r});var t="SET_DATA",r="CLEAN_DATA"}},[23]);

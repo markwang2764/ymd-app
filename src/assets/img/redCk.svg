@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="搜索" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="麻豆车-copy" transform="translate(-20.000000, -188.000000)">
+            <g id="Group" transform="translate(20.000000, 188.000000)">
+                <g id="选中">
+                    <path d="M32,16 C32,24.84 24.8368,32 16,32 C7.1632,32 0,24.84 0,16 C0,7.16 7.1632,0 16,0 C24.8368,0 32,7.16 32,16 L32,16 Z" id="Shape" fill="#EB0044"></path>
+                    <polyline id="Shape" stroke="#FFFFFF" points="7.22580645 15.1225806 14.4258065 22.3225806 26.4258065 10.3225806"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
